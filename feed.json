@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "阿炳耀的博客",
+    "description": "",
+    "home_page_url": "https://CuixueChao.github.io.git",
+    "feed_url": "https://CuixueChao.github.io.git/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "BingYao"
+    },
+    "items": [
+        {
+            "id": "https://CuixueChao.github.io.git/gong-ju-shi-yong-ji-qiao.html",
+            "url": "https://CuixueChao.github.io.git/gong-ju-shi-yong-ji-qiao.html",
+            "title": "工具使用技巧",
+            "content_html": "<h3 id=\"evething-右键集成当前文件夹搜索\">evething-右键集成当前文件夹搜索</h3>\n<pre><code class=\"language-中文\">使用Win+R 打开命令窗体，输入regedit打开注册表\n\n找到路径：HKEY_CLASSES_ROOT\\Directory\\Background\\shell\n\n新建项，命名自己取（即右键菜单显示的文字），我写的 Everything快搜\n\n右键新建的项，再次新建项，命名command, 打开它，修改它右边的默认为：\n\n&quot;E:\\everything\\Everything.exe&quot; -path &quot;.&quot;\n\n前面为你自己的Everything文件实际路径 ，后面为参数\n</code></pre>\n",
+            "author": {
+                "name": "BingYao"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-07-30T10:31:31+08:00",
+            "date_modified": "2024-07-30T10:32:16+08:00"
+        }
+    ]
+}

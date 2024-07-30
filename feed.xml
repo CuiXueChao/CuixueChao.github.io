@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>阿炳耀的博客</title>
+    <link href="https://CuixueChao.github.io.git/feed.xml" rel="self" />
+    <link href="https://CuixueChao.github.io.git" />
+    <updated>2024-07-30T10:32:16+08:00</updated>
+    <author>
+        <name>BingYao</name>
+    </author>
+    <id>https://CuixueChao.github.io.git</id>
+
+    <entry>
+        <title>工具使用技巧</title>
+        <author>
+            <name>BingYao</name>
+        </author>
+        <link href="https://CuixueChao.github.io.git/gong-ju-shi-yong-ji-qiao.html"/>
+        <id>https://CuixueChao.github.io.git/gong-ju-shi-yong-ji-qiao.html</id>
+
+        <updated>2024-07-30T10:31:31+08:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h3 id="evething-右键集成当前文件夹搜索">evething-右键集成当前文件夹搜索</h3>
+<pre><code class="language-中文">使用Win+R 打开命令窗体，输入regedit打开注册表
+
+找到路径：HKEY_CLASSES_ROOT\Directory\Background\shell
+
+新建项，命名自己取（即右键菜单显示的文字），我写的 Everything快搜
+
+右键新建的项，再次新建项，命名command, 打开它，修改它右边的默认为：
+
+&quot;E:\everything\Everything.exe&quot; -path &quot;.&quot;
+
+前面为你自己的Everything文件实际路径 ，后面为参数
+</code></pre>
+
+            ]]>
+        </content>
+    </entry>
+</feed>
